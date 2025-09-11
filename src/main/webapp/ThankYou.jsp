@@ -1,4 +1,4 @@
-<%--
+<%@ page import="reviewer.User" %><%--
   Created by IntelliJ IDEA.
   User: K00280943
   Date: 11/09/2025
@@ -17,7 +17,13 @@
     String address = request.getParameter("address");
     String city = request.getParameter("city");
     String country = request.getParameter("city");
-    String
+    String phone = request.getParameter("phone");
+    String email = request.getParameter("email");
+    String eu = request.getParameter("eu");
+    String[] socialList = new String[]{request.getParameter("check")};
+    String comment = request.getParameter("comment");
+
+
 %>
 <h1> Thanks for your review <%=name%> </h1>
 </body>

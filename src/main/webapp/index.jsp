@@ -51,7 +51,7 @@
             <td>Twitter<input name="check" type="checkbox" id="check" value="twitter">
                 Facebook   <input name="check" type="checkbox" id="check" value="facebook">
                 Newspaper<input name="check" type="checkbox" id="check" value="newspaper">
-                Radio<input name="check" type="checkbox" id="radio" value="radio">
+                Radio<input name="check" type="checkbox" id="check" value="radio">
                 Other<input name="check" type="checkbox" id="check" value="other">
         </tr>
         <tr>
