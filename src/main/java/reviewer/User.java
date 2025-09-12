@@ -13,4 +13,16 @@ public class User {
     public String EUOrNonEu;
     public String Comment;
     public String[] Socials;
+
+    public User(String name, String address, String city, String country, String phone, String email, String eu, String[] socialList, String comment) {
+        this.Name = name;
+        this.Address = address;
+        this.City = city;
+        this.Country = country;
+        this.Phone = phone;
+        this.Email = email;
+        this.EUOrNonEu = eu;
+        this.Socials = socialList;
+        this.Comment = comment;
+    }
 }
