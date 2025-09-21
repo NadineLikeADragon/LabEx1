@@ -68,7 +68,7 @@
                 Facebook   <input name="check" type="checkbox" id="check" value="facebook"<%= Arrays.asList(socials).contains("facebook") ? "checked" : "" %>>
                 Newspaper<input name="check" type="checkbox" id="check" value="newspaper"<%= Arrays.asList(socials).contains("newspaper") ? "checked" : "" %>>
                 Radio<input name="check" type="checkbox" id="check" value="radio"<%= Arrays.asList(socials).contains("radio") ? "checked" : "" %>>
-                Other<input name="check" type="checkbox" id="check" value="other"<%= Arrays.asList(socials).contains("other") ? "checked" : "" %>>]
+                Other<input name="check" type="checkbox" id="check" value="other"<%= Arrays.asList(socials).contains("other") ? "checked" : "" %>>
             </td>
         </tr>
         <tr>
