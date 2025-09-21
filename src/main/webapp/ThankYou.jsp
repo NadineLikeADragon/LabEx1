@@ -78,11 +78,11 @@
         <td>How Did You Hear About Us?</td>
 
 
-        <td>Twitter<input name="check" type="checkbox" id="check" value="twitter" disabled <%= Arrays.asList(socials).contains("twitter") ? "checked" : "" %>>
-            Facebook   <input name="check" type="checkbox" id="check" value="facebook" disabled<%= Arrays.asList(socials).contains("facebook") ? "checked" : "" %>>
-            Newspaper<input name="check" type="checkbox" id="check" value="newspaper" disabled <%= Arrays.asList(socials).contains("newspaper") ? "checked" : "" %>>
-            Radio<input name="check" type="checkbox" id="check" value="radio" disabled<%= Arrays.asList(socials).contains("radio") ? "checked" : "" %>>
-            Other<input name="check" type="checkbox" id="check" value="other" disabled<%= Arrays.asList(socials).contains("other") ? "checked" : "" %>>
+        <td>Twitter<input name="check" type="checkbox" id="check" value="twitter" disabled <%= Arrays.asList(socialList).contains("twitter") ? "checked" : "" %>>
+            Facebook   <input name="check" type="checkbox" id="check" value="facebook" disabled<%= Arrays.asList(socialList).contains("facebook") ? "checked" : "" %>>
+            Newspaper<input name="check" type="checkbox" id="check" value="newspaper" disabled <%= Arrays.asList(socialList).contains("newspaper") ? "checked" : "" %>>
+            Radio<input name="check" type="checkbox" id="check" value="radio" disabled<%= Arrays.asList(socialList).contains("radio") ? "checked" : "" %>>
+            Other<input name="check" type="checkbox" id="check" value="other" disabled<%= Arrays.asList(socialList).contains("other") ? "checked" : "" %>>
     </tr>
     <tr>
         <td>Comments</td>
